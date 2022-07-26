@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,21 @@ namespace BookStore.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        [Authorize]
+        public ViewResult Index()
         {
-            return "NENE";
+          
+           return View();
+        }
+        [Authorize]
+        public ViewResult AboutUs()
+        {
+            return View();
+        }
+        [Authorize]
+        public ViewResult ContactUs()
+        {
+            return View();
         }
     }
 }
