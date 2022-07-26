@@ -431,7 +431,8 @@ C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookSt
 C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_bookThumbnail.cshtml.g.cs
 C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\TopBooks\Default.cshtml.g.cs
 C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Signup.cshtml.g.cs
-C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.csproj.AssemblyReference.cache
 C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginInfo.cshtml.g.cs
 C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\SimilarBooks\Default.cshtml.g.cs
+C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\BookStore.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Project\BookStore\BookStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\ChangePassword.cshtml.g.cs

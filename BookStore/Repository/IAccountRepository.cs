@@ -11,5 +11,7 @@ namespace BookStore.Repository
         Task<SignInResult> PasswordSignInAsync(SignInModel signInModel);
 
         Task SignOutAsync();
+
+        Task<IdentityResult> ChangePasswordAync(ChangePasswordModel model);
     }
 }
