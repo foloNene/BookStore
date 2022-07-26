@@ -41,9 +41,10 @@ namespace BookStore.Controllers
                     return View(userModel);
                 }
                 ModelState.Clear();
-               
+                return RedirectToAction("Login", "Account");
+
             }
-            return View();
+            return View(userModel);
         }
 
         [Route("Login")]
