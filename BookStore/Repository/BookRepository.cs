@@ -26,6 +26,7 @@ namespace BookStore.Repository
                 Description = model.Description,
                 Title = model.Title,
                 LanguageId = model.LanguageId,
+                Category = model.Category,
                 TotalPages = model.TotalPages,
                 UpdatedOn = DateTime.UtcNow,
                 CoverImageUrl = model.CoverImageUrl,

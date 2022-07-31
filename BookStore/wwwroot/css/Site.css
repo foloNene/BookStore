@@ -11,13 +11,12 @@
     background: none;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
+/*.footer {
+  
+   
     width: 100%;
     white-space: nowrap;
-    line-height: 60px; /* Vertically center the text there */
-}
+}*/
 
 /*.ImageSize{
     width: 100%;
@@ -32,4 +31,56 @@
 .SimilarBooks {
     width: 100%;
     height: 300px
+}
+
+
+.SectionBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background: border-box;
+    background-color: #252839;
+}
+
+h2 {
+    position: relative;
+    font-size: 5vw;
+    color: #252839;
+    -webkit-text-stroke: 0.1vw #329d52;
+    text-transform: uppercase;
+}
+
+    h2::before {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        color: #01fe87;
+        -webkit-text-stroke: 0vw #383d52;
+        border-right: 2px solid #01fe87;
+        overflow: hidden;
+        animation: animate 9s linear infinite;
+    }
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+
+    70% {
+        width: 100%;
+    }
+}
+
+.SectionBody2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    background: border-box;
+    background-color: #252839;
+    color: white;
 }

@@ -7,6 +7,7 @@ namespace BookStore.Enums
 {
     public enum LanguageEnum
     {
+        Select,
         Yoruba,
         English,
         Hindi,

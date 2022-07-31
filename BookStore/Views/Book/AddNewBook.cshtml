@@ -23,9 +23,11 @@
 <form method="post" enctype="multipart/form-data" asp-action="AddNewBook">
 
     <div class="form-group">
-        <label asp-for="LanguageId"></label>
+        <label asp-for="LanguageId">
+            language
+        </label>
         <select asp-for="LanguageId" class="form-control" asp-items="Html.GetEnumSelectList<LanguageEnum>()">
-            <option>Please enter a language</option>
+            <option value="">Please enter a language</option>
         </select>
         <span asp-validation-for="LanguageId" class="text-danger"></span>
     </div>
