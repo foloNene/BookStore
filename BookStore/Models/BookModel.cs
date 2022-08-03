@@ -19,8 +19,8 @@ namespace BookStore.Models
 
         public string Description { get; set; }
         public string Category { get; set; }
+        [Required(ErrorMessage = "Please enter the Language")]
         public int LanguageId { get; set; }
-
         public string Language { get; set; }
         [Required(ErrorMessage ="Please enter the total Pages")]
         public int TotalPages { get; set; }
